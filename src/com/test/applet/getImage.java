@@ -43,22 +43,6 @@ public class getImage extends HttpServlet {
 		      outStream.close();
 		    } catch (ClassNotFoundException e) {
 		      e.printStackTrace();
-
-		      if (stream != null) {
-		        try {
-		          stream.close();
-		        } catch (IOException e1) {
-		          e1.printStackTrace();
-		        }
-
-		      }
-
-		      if (stream != null)
-		        try {
-		          stream.close();
-		        } catch (IOException e1) {
-		          e1.printStackTrace();
-		        }
 		    }
 		    finally
 		    {

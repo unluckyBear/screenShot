@@ -69,7 +69,7 @@ public String testWriteFile(final String basePath)
 	            con.setRequestProperty("Content-Type", "application/octet-stream");
 
 	            Map param = new HashMap();
-	            byte[] byteArray = myApplet.this.getBytesFromFile(this.file);
+	            byte[] byteArray = this.getBytesFromFile(this.file);
 	            param.put("image", byteArray);
 	            param.put("imageName", String.valueOf(this.currentTime));
 	            ObjectOutputStream outStream = new ObjectOutputStream(con.getOutputStream());
