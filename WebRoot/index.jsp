@@ -34,6 +34,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	  	
   	</div>
   	<input type="button" id="find" value="截图" />
-	<p>hello</p>
   </body>
 </html>
